@@ -186,7 +186,7 @@ public class UserServiceImpl implements UserService {
 
             public PasswordAuthentication getPasswordAuthentication() {
 
-                return new PasswordAuthentication(u.getEmail(), "aniadi100");
+                return new PasswordAuthentication(u.getEmail(), "*********");
 
             }
 
